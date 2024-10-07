@@ -45,3 +45,7 @@ registerRoute(
     ],
   })
 );
+
+offlineFallback({
+  pageFallback: '/offline.html', 
+});
